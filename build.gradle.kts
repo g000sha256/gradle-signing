@@ -40,7 +40,7 @@ tasks {
 
 gradlePlugin {
     plugins {
-        register("signing") {
+        register("release") {
             id = "dev.g000sha256.signing"
             implementationClass = "dev.g000sha256.signing.SigningPlugin"
         }
